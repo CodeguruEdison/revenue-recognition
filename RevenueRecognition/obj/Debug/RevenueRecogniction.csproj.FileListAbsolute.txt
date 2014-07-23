@@ -1,0 +1,5 @@
+C:\Users\jbaekken\Dropbox\Visual Studio 2013\Projects\Patterns\RevenueRecognition\bin\Debug\RevenueRecogniction.dll
+C:\Users\jbaekken\Dropbox\Visual Studio 2013\Projects\Patterns\RevenueRecognition\bin\Debug\RevenueRecogniction.pdb
+C:\Users\jbaekken\Dropbox\Visual Studio 2013\Projects\Patterns\RevenueRecognition\obj\Debug\RevenueRecogniction.csprojResolveAssemblyReference.cache
+C:\Users\jbaekken\Dropbox\Visual Studio 2013\Projects\Patterns\RevenueRecognition\obj\Debug\RevenueRecogniction.dll
+C:\Users\jbaekken\Dropbox\Visual Studio 2013\Projects\Patterns\RevenueRecognition\obj\Debug\RevenueRecogniction.pdb

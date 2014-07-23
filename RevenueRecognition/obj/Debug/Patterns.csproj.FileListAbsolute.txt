@@ -1,0 +1,5 @@
+\\vmware-host\shared folders\dokumenter\visual studio 2013\Projects\Patterns\Patterns\obj\Debug\Patterns.csprojResolveAssemblyReference.cache
+\\vmware-host\shared folders\dokumenter\visual studio 2013\Projects\Patterns\Patterns\bin\Debug\Patterns.dll
+\\vmware-host\shared folders\dokumenter\visual studio 2013\Projects\Patterns\Patterns\bin\Debug\Patterns.pdb
+\\vmware-host\shared folders\dokumenter\visual studio 2013\Projects\Patterns\Patterns\obj\Debug\Patterns.dll
+\\vmware-host\shared folders\dokumenter\visual studio 2013\Projects\Patterns\Patterns\obj\Debug\Patterns.pdb
