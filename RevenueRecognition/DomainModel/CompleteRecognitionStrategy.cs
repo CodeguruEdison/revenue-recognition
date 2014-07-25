@@ -1,4 +1,4 @@
-﻿namespace RevenueRecogniction
+﻿namespace RevenueRecogniction.DomainModel
 {
     /// <summary>
     /// Recognizes the whole revenue immediately

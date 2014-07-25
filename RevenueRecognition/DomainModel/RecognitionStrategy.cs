@@ -1,6 +1,6 @@
-﻿namespace RevenueRecogniction
+﻿namespace RevenueRecogniction.DomainModel
 {
-    abstract class RecognitionStrategy
+    public abstract class RecognitionStrategy
     {
         public abstract void CalculateRevenueRecognitions(Contract contract);
     }

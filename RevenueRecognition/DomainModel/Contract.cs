@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using RevenueRecogniction.BasePatterns;
 
-namespace RevenueRecogniction
+namespace RevenueRecogniction.DomainModel
 {
     /// <summary>
     /// A contract has a certain revenue, and pertains to a certain product.
     /// Depending on the product, a number of revenue recognitions exist.
     /// How the revenue is split across the revenue recognitions depends on the product.
     /// </summary>
-    class Contract
+    public class Contract
     {
         private long _id;
         private readonly Product _product;
@@ -50,6 +51,21 @@ namespace RevenueRecogniction
         public void CalculateRecognitions()
         {
             _product.CalculateRevenueRecognitions(this);
+        }
+
+        public static Contract ReadForUpdate(long contractNumber)
+        {
+            throw new NotImplementedException();
+        }
+
+        public string GetAdministratorEmailAddress()
+        {
+            throw new NotImplementedException();
+        }
+
+        public static Contract Read(long contractNumber)
+        {
+            throw new NotImplementedException();
         }
     }
 }

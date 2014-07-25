@@ -1,4 +1,4 @@
-﻿namespace RevenueRecogniction
+﻿namespace RevenueRecogniction.DomainModel
 {
     /// <summary>
     /// Splits the revenue into three equal parts, and recognizes the parts

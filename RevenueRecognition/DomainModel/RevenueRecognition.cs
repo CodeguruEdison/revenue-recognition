@@ -1,10 +1,11 @@
 ﻿using System;
+using RevenueRecogniction.BasePatterns;
 
-namespace RevenueRecogniction
+namespace RevenueRecogniction.DomainModel
 {
-    class RevenueRecognition
+    public class RevenueRecognition
     {
-        private DateTime _date;
+        private readonly DateTime _date;
         public Money Amount { get; private set; }
 
         public RevenueRecognition(Money amount, DateTime date)

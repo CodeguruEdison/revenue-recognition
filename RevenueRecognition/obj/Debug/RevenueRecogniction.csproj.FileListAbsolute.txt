@@ -1,0 +1,5 @@
+C:\GitHub\RevenueRecognition\RevenueRecognition\obj\Debug\RevenueRecogniction.csprojResolveAssemblyReference.cache
+C:\GitHub\RevenueRecognition\RevenueRecognition\bin\Debug\RevenueRecogniction.dll
+C:\GitHub\RevenueRecognition\RevenueRecognition\bin\Debug\RevenueRecogniction.pdb
+C:\GitHub\RevenueRecognition\RevenueRecognition\obj\Debug\RevenueRecogniction.dll
+C:\GitHub\RevenueRecognition\RevenueRecognition\obj\Debug\RevenueRecogniction.pdb

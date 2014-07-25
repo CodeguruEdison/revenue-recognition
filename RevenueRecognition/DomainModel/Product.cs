@@ -1,9 +1,9 @@
-﻿namespace RevenueRecogniction
+﻿namespace RevenueRecogniction.DomainModel
 {
     /// <summary>
     /// A product knows what kind of revenue recognition applies to it.
     /// </summary>
-    class Product
+    public class Product
     {
         private string _name;
         private RecognitionStrategy _recognitionStrategy;

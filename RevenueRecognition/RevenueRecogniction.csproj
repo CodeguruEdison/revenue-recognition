@@ -32,21 +32,22 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CompleteRecognitionStrategy.cs" />
-    <Compile Include="Contract.cs" />
-    <Compile Include="Product.cs" />
-    <Compile Include="RecognitionStrategy.cs" />
-    <Compile Include="RevenueRecognition.cs" />
-    <Compile Include="Money.cs" />
+    <Compile Include="DomainModel\CompleteRecognitionStrategy.cs" />
+    <Compile Include="DomainModel\Contract.cs" />
+    <Compile Include="DomainModel\Product.cs" />
+    <Compile Include="DomainModel\RecognitionStrategy.cs" />
+    <Compile Include="DomainModel\RevenueRecognition.cs" />
+    <Compile Include="BasePatterns\Money.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ThreeWayRecognitionStrategy.cs" />
+    <Compile Include="DomainModel\ThreeWayRecognitionStrategy.cs" />
+    <Compile Include="ServiceLayer\ApplicationService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DomainModel\ReadMe.txt" />
+    <Content Include="ReadMe.txt" />
+    <Content Include="ServiceLayer\ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
