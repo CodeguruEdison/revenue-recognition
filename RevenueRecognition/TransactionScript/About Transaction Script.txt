@@ -1,0 +1,20 @@
+﻿Transaction Script
+
+How it Works
+
+- Organize domain logic by the transactions that you carry out in the system
+- Separate Transaction Scripts as much as you can from e.g. presentation and data source
+- Either place multiple Transaction Scripts in a single class, where each class defines a subject area,
+  or have each Transaction Script in its own class, using the Command pattern.
+- The term Transaction Script is used because most of the time you'll have one Transaction Script per
+  database transaction.
+
+When to Use It
+
+- The glory of Transaction Script is its simplicity
+- Natural for applications with only a small amount of logic
+- Very little overhead either in performance or understanding
+- For more complicated business logic, it gets harder to keep in well-designed state
+- A problem to watch out for is duplication between transactions
+- More complex business domains should use Domain Model instead
+- There's a lot of simple problems out there, and a simple solution will get you up and running much faster

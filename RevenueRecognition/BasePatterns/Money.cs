@@ -46,9 +46,9 @@ namespace RevenueRecogniction.BasePatterns
             return Cents[_currency.GetDefaultFractionDigits()];
         }
 
-        public static Money Dollars(int p)
+        public static Money Dollars(double amount)
         {
-            return new Money(p, new Currency());
+            return new Money(amount, new Currency());
         }
 
         public Money Add(Money money)
