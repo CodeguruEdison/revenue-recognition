@@ -33,6 +33,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DomainModel\CompleteRecognitionStrategy.cs" />
@@ -44,6 +45,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DomainModel\ThreeWayRecognitionStrategy.cs" />
     <Compile Include="ServiceLayer\ApplicationService.cs" />
+    <Compile Include="TableModule\Contract.cs" />
+    <Compile Include="TableModule\Product.cs" />
+    <Compile Include="TableModule\RevenueRecognition.cs" />
+    <Compile Include="TableModule\TableModule.cs" />
     <Compile Include="TransactionScript\Gateway.cs" />
     <Compile Include="TransactionScript\RecognitionService.cs" />
   </ItemGroup>
@@ -51,6 +56,7 @@
     <Content Include="DomainModel\About Domain Model.txt" />
     <Content Include="About Revenue Recognition.txt" />
     <Content Include="ServiceLayer\About Service Layer.txt" />
+    <Content Include="TableModule\About Table Module.txt" />
     <Content Include="TransactionScript\About Transaction Script.txt" />
     <Content Include="TransactionScript\DbScript.sql" />
   </ItemGroup>
