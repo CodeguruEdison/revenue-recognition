@@ -7,7 +7,7 @@ namespace RevenueRecogniction.BasePatterns
     // that need to be done for C#, especially because .NET has no Currency class as Java does.
     // Therefore need to do more research on how to best implement Money in .NET.
     // See e.g. http://www.codeproject.com/Articles/28244/A-Money-type-for-the-CLR for a thourough
-    // discussion of the matter, including source code. - JSB
+    // discussion of the matter, including source code. - jonsb
 
     public class Currency
     {

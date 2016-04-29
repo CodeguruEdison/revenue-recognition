@@ -54,7 +54,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="DomainModel\About Domain Model.txt" />
-    <Content Include="About Revenue Recognition.txt" />
     <Content Include="ServiceLayer\About Service Layer.txt" />
     <Content Include="TableModule\About Table Module.txt" />
     <Content Include="TransactionScript\About Transaction Script.txt" />

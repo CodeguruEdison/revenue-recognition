@@ -42,7 +42,7 @@ namespace RevenueRecogniction.TransactionScript
             
             // Here comes the real domain logic in this example.
             // These rules may be simple enough for a transaction script,
-            // but if the rules become much more complicate, consider using a Domain Model
+            // but if the rules become much more complicated, consider using a Domain Model
             string type = contracts.GetString(2);
             if (type == "S")
             {

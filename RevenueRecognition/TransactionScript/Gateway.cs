@@ -23,7 +23,3 @@ namespace RevenueRecogniction.TransactionScript
             throw new NotImplementedException();
         }
     }
-
-    // The RecognitionService contains two transaction scripts:
-    // RecognizedRevenue and CalculateRevenueRecognitions
-}
