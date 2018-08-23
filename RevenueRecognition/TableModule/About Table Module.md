@@ -1,6 +1,6 @@
-﻿Table Module
+# Table Module
 
-How it Works
+## How it Works
 
 - Organizes domain logic with one class per table in the database
 - Easy integration with relational database
@@ -18,7 +18,7 @@ How it Works
   then create Table Module with Record Set as an argument. There may be a chain
   of Table Modules operating on the Record Set and passing it on.
 
-When to Use It
+## When to Use It
 
 - When working on table-oriented data
 - Not too complex domain logic
