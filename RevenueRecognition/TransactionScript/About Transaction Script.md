@@ -1,6 +1,6 @@
-﻿Transaction Script
+# Transaction Script
 
-How it Works
+## How it Works
 
 - Organize domain logic by the transactions that you carry out in the system
 - Separate Transaction Scripts as much as you can from e.g. presentation and data source
@@ -9,7 +9,7 @@ How it Works
 - The term Transaction Script is used because most of the time you'll have one Transaction Script per
   database transaction.
 
-When to Use It
+## When to Use It
 
 - The glory of Transaction Script is its simplicity
 - Natural for applications with only a small amount of logic
