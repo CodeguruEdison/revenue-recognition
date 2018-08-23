@@ -1,6 +1,6 @@
-﻿Domain Model
+# Domain Model
 
-How it Works
+## How it Works
 
 - A Domain Model mingles data and process
 - A simple Domain Model looks very much like the database design
@@ -10,7 +10,7 @@ How it Works
 - A rich Domain Model requires Data Mapper
 - We want the minimum of coupling from the Domain Model to other layers
 
-When to Use It
+## When to Use It
 
 - When you have complicated and everchanging business rules involving validation, calculations and derivations
 - For simpler problems, use Transaction Script
