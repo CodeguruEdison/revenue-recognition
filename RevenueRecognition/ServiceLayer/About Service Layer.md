@@ -1,6 +1,6 @@
-﻿Service Layer
+# Service Layer
 
-How it Works
+## How it Works
 
 - Two kinds of "business logic":  domain logic and application logic
 - Service Layer factors each kind into a separate layer
@@ -15,7 +15,7 @@ How it Works
 - Small applications may need only one Service Layer
 - Bigger applications may need a Service Layer per subsystem (vertical slice) or major partition of Domain Model
 
-When to Use It
+## When to Use It
 
 - There is more than one client of the business logic
 - Complex responses in use cases involving multiple transactional resources
