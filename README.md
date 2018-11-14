@@ -1,4 +1,4 @@
-# The Revenue Recogniction Problem
+# The Revenue Recognition Problem
 
 The code in this repository is a C# adaption of Martin Fowler's Java code samples in the book [Patterns of Enterprise Application Architecture](https://martinfowler.com/books/eaa.html), illustrating various design patterns (domain model, table module, transaction script, service layer, money) on a real-world problem (revenue recognition). I re-wrote this code as an exercise for myself in using these design patterns.
 
